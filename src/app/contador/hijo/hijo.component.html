@@ -1,0 +1,17 @@
+<mat-card>
+  <mat-card-content>
+    <h1>Contador Hijo</h1>
+    <h2>{{contador}}</h2>
+  </mat-card-content>
+
+  <mat-card-actions >
+    <button mat-raised-button (click)="Multiplicar()" color="primary">Multiplicar</button>
+    <button mat-raised-button (click)="Dividir()" color="warn">Dividir</button>
+  </mat-card-actions>
+</mat-card>
+
+<hr>
+
+<div>
+  <app-nieto></app-nieto>
+</div>
